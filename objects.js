@@ -1,9 +1,9 @@
 var playlist = new Object();
 
-playlist[artistName] = songTitle;
+playlist.Queen = 'Pressure';
 
 function updatePlaylist (playlist, artistName, songTitle){
-  playlist[artistName] = songTitle;
+  playlist.artistName = songTitle;
   return playlist;
 }
 
